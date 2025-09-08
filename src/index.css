@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+li {
+  @apply bg-white text-2xl font-bold p-4 border-4 rounded-lg flex justify-between gap-0.5 items-center w-full;
+}
+
+button {
+  @apply border rounded-md text-lg cursor-pointer;
+}
